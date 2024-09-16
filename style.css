@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+:root {
+  --main-bg-color: #3C3D37;
+  --main-text-color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Oswald", sans-serif;
+  position: sticky;
+  top: 0px;
+}
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  height: 58px;
+  align-items: center;
+  margin-left: 36em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+/* .logo1 {
+  display: flex;
+    height: 3em;
+    width: 3em;
+    padding: 5px;
+}  */
+.logo1 img {
+  display: flex;
+  height: 3em;
+  width: 3em;
+  padding: 5px;
+}
+.logo1 img:hover {
+  background-color: white;
+  border-radius: 8px;
+  margin: 2px;
+  padding: 0px;
+}
+.logo img {
+  display: flex;
+  padding: 0 25px;
+  height: 3em;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-size: 18px;
+}
+nav ul li a img {
+  width: 39px;
+  height: 42px;
+}
+nav ul li a img:hover {
+  background-color: rgb(243, 235, 235);
+  border-radius: 6px;
+}
+
+.container {
+  min-height: calc(100vh - 13vh - 58px);
+}
+.slider {
+  width: 90vw;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.card {
+  max-width: 90vw;
+  margin: 37px auto;
+  background-color: #ECDFCC;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+  font-family: sans-serif;
+}
+.scroll-bar {
+  background-color: #f4ece3;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+footer {
+  color: white;
+  background-color: var(--main-bg-color);
+  height: 13vh;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+}
+
+/* Contact Us */
+.container2 {
+  display: flex;
+  /* background-color: #8106b9; */
+  text-transform: capitalize;
+  background-color: #f4ece3;
+  font-family: "Open Sans", sans-serif;
+}
+.form {
+  /* background-color: aquamarine; */
+  height: 25em;
+  width: 28em;
+  margin: 50px;
+  text-align: center;
+  margin-left: 101px;
+}
+.text-filed {
+  /* background-color: red; */
+  height: 3em;
+  margin: 11px;
+}
+input[type="text"] {
+  padding: 11px;
+  margin: 12px;
+  width: 23em;
+}
+input[type="email"] {
+  padding: 11px;
+  margin: 12px;
+  width: 23em;
+}
+#textarea {
+  resize: none;
+  width: 327px;
+  margin: 11px;
+}
+#cbtn {
+  background-color: #f0f3ef;
+  height: 43px;
+  margin-top: 58px;
+  text-transform: capitalize;
+  color: black;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  margin-left: 85px;
+}
+.box1 {
+  /* background-color: #42d61d; */
+  height: 90px;
+  width: 31em;
+}
+.box1 img {
+  height: 46px;
+  margin: 23px;
+}
+.box1-lable {
+  margin: -64px;
+  padding: -2em;
+  margin-left: 97px;
+  font-size: 24px;
+}
+
+.box2 {
+  /* background-color: #c0283c; */
+  height: 90px;
+  width: 31em;
+}
+.box2 img {
+  height: 46px;
+  margin: 23px;
+}
+.box2-lable {
+  margin: -64px;
+  padding: -2em;
+  margin-left: 97px;
+  font-size: 24px;
+}
+.box3 {
+  /* background-color: #1ad329; */
+  height: 90px;
+  width: 31em;
+}
+.box3 img {
+  height: 46px;
+  margin: 23px;
+}
+.box3-lable {
+  margin: -64px;
+  padding: -2em;
+  margin-left: 97px;
+  font-size: 20px;
+}
+
+.box4 {
+  /* background-color: #21cebf; */
+  height: 90px;
+  width: 31em;
+}
+.box4 img {
+  height: 46px;
+  margin: 23px;
+}
+.box4-lable {
+  margin: -64px;
+  padding: -2em;
+  margin-left: 97px;
+  font-size: 20px;
+}
+/* Prevent horizontal scrolling on the entire page */
+html, body {
+  overflow-x: hidden;
+  margin: 0; /* Optional: remove default margin */
+  padding: 0; /* Optional: remove default padding */
+}
+body { background-color: #697565; }
